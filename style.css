@@ -69,6 +69,11 @@ body {
 	color: #0e4f1f;
 }
 
+.main-nav__item a::after {
+	content: " (Link)";
+	color: red;
+}
+
 .main-nav__item a:hover {
 	color: white;
 }
@@ -77,6 +82,10 @@ body {
 	color: white;
 }
 
+p::first-letter {
+	color: red;
+	font-size: 20px;
+}
 
 
 
