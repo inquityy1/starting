@@ -17,6 +17,7 @@ body {
 
 .section-title {
 	color: #2ddf5c;
+	text-align: center;
 }
 
 #product-overview h1 {
@@ -33,6 +34,14 @@ body {
 	width: 30%;
 	vertical-align: middle;
 }
+
+.plan--highlighted {
+	background: #19b84c;
+	color: white;
+	box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.5);
+}
+
+
 
 /* h1 {
 	font-family: sans-serif;
