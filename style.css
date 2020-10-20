@@ -93,6 +93,10 @@ body {
 	background: white;
 }
 
+.button:focus {
+	outline: none;
+}
+
 /* h1 {
 	font-family: sans-serif;
 } */
