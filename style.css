@@ -78,6 +78,19 @@ body {
 .button {
 	background: #0e4f1f;
 	color: white;
+	font: inherit;
+	border: 1.5px solid #0e4f1f;
+	padding: 8px;
+	border-radius: 8px;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+.button:hover,
+.button:active {
+	color: #0e4f1f;
+	font-weight: bold;
+	background: white;
 }
 
 /* h1 {
