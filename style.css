@@ -49,14 +49,35 @@ body {
 	border-radius: 5px;
 }
 
+.plan__title {
+	color: #0e4f1f;
+}
+
+.plan__price {
+	color: #858585;
+}
+
+.plan--highlighted .plan__title {
+	color: white;
+}
+
+.plan--highlighted .plan__price {
+	color: #0e4f1f;
+}
+
 .plan__features {
 	list-style: none;
 	margin: 0;
 	padding: 0;
 }
 
-.plan__features li {
+.plan__feature li {
 	margin: 8px 0;
+}
+
+.button {
+	background: #0e4f1f;
+	color: white;
 }
 
 /* h1 {
