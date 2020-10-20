@@ -4,7 +4,12 @@ body {
 
 #product-overview {
 	background: #ff1b68;
+	padding: 20px;
+	border-style: solid;
+	border-color: black;
+	border-width: 5px;
 }
+
 
 .section-title {
 	color: #2ddf5c;
@@ -15,3 +20,4 @@ body {
 	color: white;
 	font-family: 'Anton', sans-serif;
 }
+
