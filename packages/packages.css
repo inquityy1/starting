@@ -37,8 +37,8 @@ main {
     position: absolute;
     top: 0;
     right: 0;
-    margin: 1rem;
-    font-size: 0.7rem;
+    margin: 1.2rem;
+    font-size: 0.8rem;
     color: white;
     background: #ff5454;
     padding: 0.5rem;
@@ -49,9 +49,9 @@ main {
 }
 
 .package__info {
-    padding: 0.9rem;
+    padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 20px;
+    font-size: 1.2rem;
     color: #0e4f1f;
     background: white;
 }
