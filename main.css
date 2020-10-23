@@ -24,7 +24,7 @@
 	font-size: 1.6rem;
 }
 
-@media (min-width: 40rem) {
+@media (min-width: 40rem) and (min-height: 40rem) {
 	#product-overview {
 		height: 40vh;
 		background-position: 50% 25%;
@@ -32,17 +32,6 @@
 	
 	#product-overview h1 {
 		font-size: 3rem;
-	}
-}
-
-@media (min-width: 60rem) {
-	#product-overview {
-		height: 50vh;
-		background-position: 50% 25%;
-	}
-	
-	#product-overview h1 {
-		font-size: 5rem;
 	}
 }
 
@@ -156,6 +145,7 @@
 	.key-feature {
 		display: inline-block;
 		width: 30%;
+		max-width: 25rem;
 		vertical-align: top;
 	}
 }
