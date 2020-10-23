@@ -62,12 +62,12 @@ main {
 .package__info {
     padding: 1rem;
     border: 1px solid #0e4f1f;
-    font-size: 1.2rem;
+    /*font-size: 1.2rem;  2*/
     color: #0e4f1f;
     background: white;
-	font-family: 'AnonymousPro', sans-serif;
-	font-weight: 700;
-	text-shadow: 5px 5px;
+	/*font-family: 'AnonymousPro', sans-serif;  3*/
+	/*font-weight: 700; 1*/
+	font:small-caps 700 1.2rem 'AnonymousPro', sans-serif;
 }
 
 .clearfix {
