@@ -67,7 +67,7 @@ main {
     background: white;
 	font-family: 'AnonymousPro', sans-serif;
 	font-weight: 700;
-	text-decoration: underline red wavy;
+	text-shadow: 5px 5px;
 }
 
 .clearfix {
