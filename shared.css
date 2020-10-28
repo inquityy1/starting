@@ -58,6 +58,9 @@ main {
   background: #2ddf5c;
   padding: 0.5rem 1rem;
   z-index: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -107,6 +110,9 @@ main {
   margin: 0;
   padding: 0;
   list-style: none;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
 }
 
@@ -159,6 +165,9 @@ main {
     text-align: right;
     width: calc(100% - 44px);
     vertical-align: middle; */
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: -webkit-flex;
 	display: flex;
   }
 }
@@ -175,6 +184,9 @@ main {
   list-style: none;
   margin: 0;
   padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -208,6 +220,9 @@ main {
 
 .mobile-nav__items {
   flex-direction: column;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
   display: flex;
   align-items: center;
   justify-content: center;
