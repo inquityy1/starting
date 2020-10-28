@@ -26,7 +26,7 @@ main {
   .testimonial__image {
     width: 100%;
     vertical-align: top;
-	transform: skew(-20deg) scale(1.3);
+	transform: skew(-20deg) scale(1.4);
   }
   
   .testimonial__info {
